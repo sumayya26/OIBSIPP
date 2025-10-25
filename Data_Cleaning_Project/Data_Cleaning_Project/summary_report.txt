@@ -1,10 +1,32 @@
-Data Cleaning Project Summary
+Project Overview:
+This project involves cleaning the Airbnb NYC 2019 dataset to ensure data quality and prepare it for analysis.
 
-Dataset: Airbnb NYC 2019
-- Handled missing values
-- Removed duplicates
-- Standardized text
-- Removed outliers
-- Saved cleaned data as AB_NYC_2019_Cleaned.csv
+Key Steps:
 
-Author: Sumayya Harmain
+1. Dataset Overview:
+   - Rows: 49,000 (example)
+   - Columns: 16
+   - Contains listing info, neighborhood, price, minimum nights, number of reviews, etc.
+
+2. Data Cleaning:
+   - Handled missing values in columns like 'reviews_per_month' and 'name'
+   - Standardized categorical columns like 'neighbourhood_group' and 'room_type'
+   - Converted 'price' column to numeric, removing $ and commas
+   - Created any derived columns needed for analysis
+
+3. Observations:
+   - Some listings have very high prices; considered as outliers
+   - Missing reviews mostly for new or inactive listings
+   - Neighborhood distribution is uneven (Manhattan highest listings)
+
+4. Recommendations:
+   - Remove or flag outliers in price for analysis
+   - Impute or analyze missing reviews carefully
+   - Standardize text columns to prevent duplicate categories
+
+Tools and Libraries:
+- Python (pandas, numpy, matplotlib)
+- Jupyter Notebook
+
+Conclusion:
+The dataset is now cleaned and ready for exploratory data analysis or modeling.
