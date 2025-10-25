@@ -1,0 +1,14 @@
+Exploratory Data Analysis on Retail Sales Dataset
+
+Objective:
+To explore sales, customers, and product trends and provide business insights.
+
+Key Findings:
+- Monthly and weekly sales trends identified.
+- Top 10 products and customers highlighted.
+- Correlation and seasonality observed in the data.
+
+Recommendations:
+1. Focus marketing before peak months.
+2. Reward top customers for retention.
+3. Maintain sufficient stock for best-selling items.
