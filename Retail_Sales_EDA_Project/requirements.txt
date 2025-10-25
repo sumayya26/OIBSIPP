@@ -9,9 +9,7 @@ scikit-learn==1.5.2
 jupyter==1.1.1
 💡 Notes:
 These versions are Google Colab compatible, so your notebook will run smoothly anywhere.
-
 If you later add any forecasting or advanced visualization (like statsmodels or altair), you can update this list easily.
-
 You can test it by running this in Colab:
 
 python
