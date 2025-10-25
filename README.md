@@ -17,3 +17,14 @@ This repository contains my internship projects completed under **Oasis Infobyte
 ### 2. Retail Sales EDA Project
 - Dataset: Retail Sales Data
 - Focus: Exploratory Data Analysis (EDA), Time Series, Product & Customer Insights
+# Customer Segmentation Analysis Project
+
+## Project Overview
+The aim of this project is to perform customer segmentation analysis for an e-commerce company. By analyzing customer behavior and purchase patterns, we group customers into meaningful segments to inform marketing strategies, improve customer satisfaction, and optimize business decisions.
+
+## Dataset
+- File: `ifood_df.csv`
+- Contains customer demographic information, purchase history, and relevant features.
+
+## Folder Structure
+
