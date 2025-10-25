@@ -1,3 +1,19 @@
-pandas
-numpy
-matplotlib
+# Required Python Libraries for Retail Sales EDA Project
+
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.0
+scikit-learn==1.5.2
+jupyter==1.1.1
+💡 Notes:
+These versions are Google Colab compatible, so your notebook will run smoothly anywhere.
+
+If you later add any forecasting or advanced visualization (like statsmodels or altair), you can update this list easily.
+
+You can test it by running this in Colab:
+
+python
+Copy code
+!pip install -r requirements.txt
