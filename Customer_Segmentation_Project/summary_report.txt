@@ -1,32 +1,49 @@
-## How to Run
-1. Clone the repository:
-```bash
-git clone <repository_url>
-Install dependencies:
+Dataset Overview:
 
-bash
-Copy code
-pip install -r requirements.txt
-Open the notebook:
+Number of rows: <insert number>
 
-bash
-Copy code
-jupyter notebook Customer_Segmentation_Analysis.ipynb
-Run the notebook step by step to reproduce the analysis.
+Number of columns: <insert number>
 
-Key Steps in the Notebook
-1.Data Collection & Import
+Key features: Income, Recency, Total Spending (MntTotal), MntWines, MntMeatProducts
 
-2.Data Exploration & Cleaning
+Data Cleaning & Scaling:
 
-3.Data Scaling
+Duplicates removed
 
-4.Descriptive Statistics & Visualization
+Missing values handled
 
-5.Customer Segmentation using K-Means
+Numeric columns scaled using StandardScaler
 
-6.Cluster Visualization
+Clustering (K-Means):
 
-7.Insights & Recommendations
+Optimal number of clusters determined using Elbow Method: K = 4
 
+Cluster distribution:
+Cluster 0: <count>
+Cluster 1: <count>
+Cluster 2: <count>
+Cluster 3: <count>
 
+Insights & Recommendations:
+
+High-value Customers → Target with loyalty programs, premium offers.
+
+Budget-conscious Customers → Promote discounts, bundle offers.
+
+Moderate Engagement → Personalized recommendations.
+
+Monitor and update segments regularly.
+
+Use cluster characteristics for targeted marketing campaigns.
+
+Visualizations Included:
+
+Income Distribution
+
+Total Spending Distribution
+
+Correlation Heatmap
+
+Elbow Method Plot
+
+Customer Segments Scatter Plot (Income vs Total Spending)
