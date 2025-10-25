@@ -1,0 +1,32 @@
+## How to Run
+1. Clone the repository:
+```bash
+git clone <repository_url>
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Open the notebook:
+
+bash
+Copy code
+jupyter notebook Customer_Segmentation_Analysis.ipynb
+Run the notebook step by step to reproduce the analysis.
+
+Key Steps in the Notebook
+1.Data Collection & Import
+
+2.Data Exploration & Cleaning
+
+3.Data Scaling
+
+4.Descriptive Statistics & Visualization
+
+5.Customer Segmentation using K-Means
+
+6.Cluster Visualization
+
+7.Insights & Recommendations
+
+
