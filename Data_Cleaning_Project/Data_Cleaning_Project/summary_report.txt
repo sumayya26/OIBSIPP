@@ -1,0 +1,10 @@
+Data Cleaning Project Summary
+
+Dataset: Airbnb NYC 2019
+- Handled missing values
+- Removed duplicates
+- Standardized text
+- Removed outliers
+- Saved cleaned data as AB_NYC_2019_Cleaned.csv
+
+Author: Sumayya Harmain
