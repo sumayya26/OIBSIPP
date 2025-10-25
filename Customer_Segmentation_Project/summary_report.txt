@@ -1,21 +1,14 @@
 Dataset Overview:
-
 Number of rows: <insert number>
-
 Number of columns: <insert number>
-
 Key features: Income, Recency, Total Spending (MntTotal), MntWines, MntMeatProducts
 
 Data Cleaning & Scaling:
-
 Duplicates removed
-
 Missing values handled
-
 Numeric columns scaled using StandardScaler
 
 Clustering (K-Means):
-
 Optimal number of clusters determined using Elbow Method: K = 4
 
 Cluster distribution:
@@ -25,23 +18,15 @@ Cluster 2: <count>
 Cluster 3: <count>
 
 Insights & Recommendations:
-
 High-value Customers → Target with loyalty programs, premium offers.
-
 Budget-conscious Customers → Promote discounts, bundle offers.
-
 Moderate Engagement → Personalized recommendations.
-
 Monitor and update segments regularly.
-
 Use cluster characteristics for targeted marketing campaigns.
 
 Visualizations Included:
-
 Income Distribution
-
 Total Spending Distribution
-
 Correlation Heatmap
 
 Elbow Method Plot
